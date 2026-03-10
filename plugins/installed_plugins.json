@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "plugins": {
+    "claude-mem@thedotmack": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\20106341\\.claude\\plugins\\cache\\thedotmack\\claude-mem\\10.5.2",
+        "version": "10.5.2",
+        "installedAt": "2026-03-07T03:26:09.608Z",
+        "lastUpdated": "2026-03-07T03:26:09.608Z",
+        "gitCommitSha": "ecb09df42002db222a57e117abcec188393ef984"
+      }
+    ],
+    "everything-claude-code@everything-claude-code": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\20106341\\.claude\\plugins\\cache\\everything-claude-code\\everything-claude-code\\1.8.0",
+        "version": "1.8.0",
+        "installedAt": "2026-03-09T03:27:45.627Z",
+        "lastUpdated": "2026-03-09T03:27:45.627Z",
+        "gitCommitSha": "0f416b0b9d99e367cedf6d3af114bc24272cfe4c"
+      }
+    ]
+  }
+}
