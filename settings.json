@@ -186,6 +186,10 @@
       "Bash(ls -a*)",
       "Bash(ls -lh*)",
       "Bash(ls -la */)",
+      "Bash(search *)",
+      "Bash(grep -r *)",
+      "Bash(grep -n *)",
+      "Bash(rg *)",
       "Bash(ll*)",
       "Bash(cat *)",
       "Bash(cat -n *)",
@@ -1061,5 +1065,6 @@
         "repo": "affaan-m/everything-claude-code"
       }
     }
-  }
+  },
+  "skipDangerousModePermissionPrompt": true
 }
