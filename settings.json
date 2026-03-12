@@ -823,6 +823,8 @@
       "WebSearch(claude)",
       "WebSearch(anthropic)",
       "WebSearch(github)",
+      "WebSearch(ai)",
+      "WebSearch(*)",
       "Bash(aws *)",
       "Bash(aws s3 *)",
       "Bash(aws ec2 *)",
@@ -895,9 +897,8 @@
       "Task(**)",
       "Bash(claude *)",
       "Bash(claude config *)",
-      "Bash(claude code *)"
-    ],
-    "deny": [
+      "Bash(claude code *)",
+      
       "Bash(rm -rf /*)",
       "Bash(rm -rf /)",
       "Bash(sudo rm -rf /*)",
@@ -1046,6 +1047,8 @@
       "Bash(exec < /dev/tcp/*)",
       "Bash(exec > /dev/tcp/*)",
       "Bash(exec 3<>/dev/tcp/*)"
+    ],
+    "deny": [
     ]
   },
   "enabledPlugins": {
