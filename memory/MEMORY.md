@@ -35,15 +35,12 @@
 ## Node.js
 - 优先使用 bun（如果项目中有 bun.lockb）
 
+## Python
+- Python 3.12: `C:\Program Files\Python312\python`
+- 调用方式: 脚本中需设置 `PYTHONIOENCODING=utf-8` 环境变量解决中文编码
+
 ---
 
 # Mac 电脑配置
 
 （待补充）
-
----
-
-# Ubuntu 云主机配置
-
-## 项目目录
-- coding 项目都放在 `文档/Projects` 目录下
