@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "skills": {
+    "summarize": {
+      "name": "Summarize",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=summarize",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "github-helper": {
+      "name": "github-helper",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=github-helper",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "gog": {
+      "name": "Gog",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=gog",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "find-skills": {
+      "name": "Find Skills",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=find-skills",
+      "source": "skillhub",
+      "version": "0.1.0"
+    },
+    "brave-search": {
+      "name": "Brave Search",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=brave-search",
+      "source": "skillhub",
+      "version": "1.0.1"
+    },
+    "electron": {
+      "name": "Electron",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=electron",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "playwright-mcp": {
+      "name": "Playwright MCP",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=playwright-mcp",
+      "source": "skillhub",
+      "version": "1.0.0"
+    }
+  }
+}
