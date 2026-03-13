@@ -1,0 +1,26 @@
+#!/bin/bash
+# fork - Open directory with Fork app
+# Usage: fork . or fork /path/to/dir
+
+# Get the directory path (default to current directory)
+if [ -z "$1" ]; then
+    DIR="."
+else
+    DIR="$1"
+fi
+
+# Resolve to absolute path
+DIR=$(cd "$DIR" 2>/dev/null && pwd)
+
+if [ -z "$DIR" ]; then
+    echo "Error: Cannot resolve directory: $1"
+    exit 1
+fi
+
+# Check if .git exists
+if [ -d "$DIR/.git" ]; then
+    echo "Git repository detected: $DIR"
+fi
+
+# Open with Fork app
+open -a Fork "$DIR"
