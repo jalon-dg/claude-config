@@ -42,6 +42,12 @@
       "zip_url": "http://lightmake.site/api/v1/download?slug=playwright-mcp",
       "source": "skillhub",
       "version": "1.0.0"
+    },
+    "subagent-driven-development": {
+      "name": "Subagent Driven Development",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=subagent-driven-development",
+      "source": "skillhub",
+      "version": "0.1.0"
     }
   }
 }
