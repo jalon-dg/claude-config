@@ -1,5 +1,32 @@
 # 全局工作习惯
 
+## 服务器信息
+
+### my-server (阿里云服务器)
+- IP: 39.97.232.242
+- SSH: root@39.97.232.242 (密钥: ~/.ssh/id_ed25519)
+- 项目目录: /www/wwwroot/zhang/
+- 可用端口: 3000~4000
+
+#### 已部署服务
+| 服务 | 端口 | 路径 |
+|------|------|------|
+| image-bed (图床) | 3002 | /www/wwwroot/zhang/image-bed |
+| wechat-server | 3000 | /www/wwwroot/zhang/.output/server |
+
+#### 常用命令
+```bash
+# 连接服务器
+ssh root@39.97.232.242
+
+# PM2 管理
+pm2 status
+pm2 logs <服务名> --lines 50
+pm2 restart <服务名>
+```
+
+---
+
 ## 启动项目
 
 ### 前后端一体项目
